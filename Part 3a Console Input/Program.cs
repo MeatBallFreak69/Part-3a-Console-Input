@@ -24,6 +24,8 @@ namespace Part_3a_Console_Input
             Console.WriteLine($"Your name is {name}");
             Console.WriteLine($"Your age is {age}");
             Console.WriteLine($"The year is {year}");
+            Console.WriteLine("");
+
 
             Console.WriteLine("Program 2");
 
@@ -35,6 +37,8 @@ namespace Part_3a_Console_Input
             Console.WriteLine("Number 3");
             int NumThree = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine($"Your total is {NumOne + NumTwo + NumThree}");
+            Console.WriteLine("");
+
 
             Console.WriteLine("Program 3");
 
@@ -47,7 +51,8 @@ namespace Part_3a_Console_Input
             double DisThree = Convert.ToDouble(Console.ReadLine());
             double totalDistance = (DisOne + DisTwo + DisThree) / 3;
             totalDistance = Math.Round(totalDistance, 2); 
-            Console.WriteLine($"Your total distance is {totalDistance}");
+            Console.WriteLine($"Your average distance is {totalDistance}");
+            Console.WriteLine("");
 
             Console.WriteLine("Program 3");
 
